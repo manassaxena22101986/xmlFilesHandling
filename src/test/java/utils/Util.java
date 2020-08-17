@@ -22,7 +22,7 @@ public class Util {
 	static ArrayList<String> values = new ArrayList<String>();
 
 	public static Boolean checkFileFormat(final String format) {
-		File f = new File("C:\\Users\\manas\\eclipse-workspace\\xmlFilesHandling\\testData\\Data");
+		File f = new File(".\\testData\\Data");
 		FilenameFilter filter = new FilenameFilter() {
 			public boolean accept(File f, String name) {
 				return name.endsWith(format);
